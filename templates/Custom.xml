@@ -10,11 +10,13 @@
   <template name="switchs" value="switch (view.getId()) {&#10;    case xxx:&#10;        break;&#10;&#10;    default:&#10;        break;&#10;}" shortcut="ENTER" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="trys" value="try {&#10;&#10;} catch (Exception e) {&#10;    e.printStackTrace();&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="dswm" value="/**&#10; * Description:&#10; * &#10; * author: xianjie.zheng&#10; * version: 1.18.0&#10; * created at: $DATE$ $TIME$&#10; */" description="class annotataion by weimob" toReformat="false" toShortenFQNames="true">
