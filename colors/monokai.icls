@@ -856,6 +856,12 @@
         <option name="FOREGROUND" value="66d9ef" />
       </value>
     </option>
+    <option name="PY.KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="cc7832" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="REGEXP.BRACES">
       <value>
         <option name="FOREGROUND" value="f92672" />
