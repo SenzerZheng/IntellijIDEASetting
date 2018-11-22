@@ -4,7 +4,7 @@
     <property name="description" />
     <property name="ide">Python</property>
     <property name="ideVersion">2018.2.2.0.0</property>
-    <property name="modified">2018-11-22T11:16:00</property>
+    <property name="modified">2018-11-22T12:38:09</property>
     <property name="originalScheme">Monokai</property>
     <property name="vendorMail" />
     <property name="vendorName" />
@@ -1082,6 +1082,12 @@
     <option name="PY.OPERATION_SIGN">
       <value>
         <option name="FOREGROUND" value="f92672" />
+      </value>
+    </option>
+    <option name="PY.PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="fd971f" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PY.PREDEFINED_DEFINITION" baseAttributes="DEFAULT_PREDEFINED_SYMBOL" />
