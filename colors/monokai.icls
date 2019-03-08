@@ -184,6 +184,7 @@
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
+    <option name="CUSTOM_LINE_COMMENT_ATTRIBUTES" baseAttributes="DEFAULT_LINE_COMMENT" />
     <option name="CUSTOM_NUMBER_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="9900" />
@@ -872,12 +873,6 @@
         <option name="FOREGROUND" value="a6e22e" />
       </value>
     </option>
-    <option name="PY.DOC_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="75715e" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
     <option name="PY.FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="66d9ef" />
@@ -904,12 +899,6 @@
     <option name="PY.KEYWORD_ARGUMENT">
       <value>
         <option name="FOREGROUND" value="aa4926" />
-      </value>
-    </option>
-    <option name="PY.LINE_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="75715e" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="PY.NUMBER">
