@@ -2,12 +2,14 @@
   <component name="FileTypeManager" version="17">
     <extensionMap>
       <mapping ext="wxss" type="CSS" />
+      <mapping pattern="*.js.flow" type="Flow" />
+      <mapping pattern="*.js.flow" type="Flow" />
       <mapping ext="wxml" type="HTML" />
       <mapping pattern="MathematicSymbol" type="PLAIN_TEXT" />
       <mapping pattern="README" type="PLAIN_TEXT" />
       <mapping pattern="a" type="PLAIN_TEXT" />
-      <mapping ext="mk" type="PLAIN_TEXT" />
       <mapping ext="meta" type="PLAIN_TEXT" />
+      <mapping ext="mk" type="PLAIN_TEXT" />
       <mapping ext="db" type="SQL" />
     </extensionMap>
   </component>
