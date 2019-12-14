@@ -2,9 +2,12 @@
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="15" />
     <option name="FONT_FAMILY" value="Monospaced" />
-    <option name="LINE_SPACING" value="1.0" />
+    <option name="LINE_SPACING" value="1.1" />
   </component>
   <component name="SqlEditorOptions">
     <option name="qualificationType" value="On collisions" />
+  </component>
+  <component name="TodoConfiguration">
+    <pattern pattern="\b(todo|fixme)\b.*" />
   </component>
 </application>
