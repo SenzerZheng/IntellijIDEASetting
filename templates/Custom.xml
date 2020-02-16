@@ -1,0 +1,42 @@
+<templateSet group="Custom">
+  <template name="ds" value="/**&#10; * ProjectName: $PROJECT_NAME$&#10; * Description:&#10; * &#10; * review by xxx $DATE$&#10; * edit by xxx $DATE$&#10; * author: SenzerZheng&#10; * version: 1.0.0&#10; * created at: $DATE$ $TIME$&#10; */" description="universal class annotataion" toReformat="false" toShortenFQNames="true">
+    <variable name="PROJECT_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="TIME" expression="time()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="switchs" value="switch (view.getId()) {&#10;    case xxx:&#10;        break;&#10;&#10;    default:&#10;        break;&#10;}" shortcut="ENTER" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="trys" value="try {&#10;&#10;} catch (Exception e) {&#10;    e.printStackTrace();&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="dsxy" value="/**&#10; * Description:&#10; * &#10; * author: xianjie.zheng&#10; * created at: $DATE$ $TIME$&#10; */" description="class annotataion by weimob xy" toReformat="false" toShortenFQNames="true">
+    <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="TIME" expression="time()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="dsca" value="/**&#10; * Description:&#10; * &#10; * author: xianjie.zheng&#10; * created at: $DATE$ $TIME$&#10; */" description="class annotation by weimob cashier" toReformat="false" toShortenFQNames="true">
+    <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <variable name="TIME" expression="time()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_DECLARATION" value="true" />
+    </context>
+  </template>
+  <template name="td" value="/**&#10; * TODO:&#10; */" description="todo" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,10 @@
+<application>
+  <component name="HttpConfigurable">
+    <option name="PROXY_HOST" value="sg1.nhpass.com" />
+    <option name="PROXY_PORT" value="110" />
+    <option name="PROXY_AUTHENTICATION" value="true" />
+    <option name="PROXY_LOGIN" value="791289609@qq.com" />
+    <option name="PROXY_PASSWORD_CRYPT" value="emh4amllNTI4OA==" />
+    <option name="KEEP_PROXY_PASSWORD" value="true" />
+  </component>
+</application>
