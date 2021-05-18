@@ -916,6 +916,12 @@
         <option name="FOREGROUND" value="a6e22e" />
       </value>
     </option>
+    <option name="PY.FSTRING_FRAGMENT_BRACES">
+      <value>
+        <option name="FOREGROUND" value="ae81ff" />
+        <option name="FONT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="PY.FUNCTION_CALL">
       <value>
         <option name="FOREGROUND" value="66d9ef" />
