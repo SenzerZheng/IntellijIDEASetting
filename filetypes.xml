@@ -3,6 +3,10 @@
     <extensionMap>
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="*.js.flow" type="Flow" />
+      <mapping pattern="testExchangeList" type="JSON" />
+      <mapping pattern="brief" type="PLAIN_TEXT" />
+      <mapping pattern="response" type="PLAIN_TEXT" />
+      <mapping ext="m3u8" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
